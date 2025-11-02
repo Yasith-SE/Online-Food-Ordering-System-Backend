@@ -12,6 +12,7 @@ import lombok.*;
 @Entity
 
 public class CustomerEntity {
+
         @Id
         private String customerId;
         private String name;
