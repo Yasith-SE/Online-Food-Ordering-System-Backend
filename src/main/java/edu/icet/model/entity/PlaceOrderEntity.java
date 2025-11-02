@@ -24,10 +24,5 @@ public class PlaceOrderEntity {
     private double totalAmount;
     private String paymentMethod;
 
-    @ManyToMany(cascade = CascadeType.MERGE)
-    private CustomerEntity customerEntity;
-
-    @ManyToOne(cascade = CascadeType.MERGE)
-    private FoodItemEntity foodItemEntity;
 
 }
