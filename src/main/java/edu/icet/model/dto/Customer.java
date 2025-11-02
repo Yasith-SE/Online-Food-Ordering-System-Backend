@@ -11,7 +11,7 @@ import lombok.*;
 
 public class Customer {
 
-    private Long customerId;
+    private String customerId;
     private String name;
     private int phoneNumber;
     private String emailAddress;
