@@ -12,8 +12,9 @@ import java.time.LocalDateTime;
 
 public class PlaceOrder {
 
-    private String orderId;
-    private String customerId;
+    private Long orderId;
+    private Long customerId;
+    private String customerName;
     private String selectItem;
     private LocalDateTime orderDate;
     private String deliveryAddress;

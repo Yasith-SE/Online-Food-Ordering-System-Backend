@@ -10,7 +10,7 @@ import lombok.*;
 
 public class FoodItem {
 
-    private String id;
+    private Long id;
     private String foodName;
     private String category;
     private String description;
